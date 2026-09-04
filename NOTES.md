@@ -15,3 +15,4 @@ The requested backend endpoints and frontend views are implemented. The solution
 
 - A free-text ticker input with autocomplete rather than only preset UI examples.
 - Add unit and API test
+- Add Page size as select option from table sizing in UI
