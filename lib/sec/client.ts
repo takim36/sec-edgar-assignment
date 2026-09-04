@@ -9,9 +9,7 @@ const TICKERS_URL = "https://www.sec.gov/files/company_tickers.json";
 const SUBMISSIONS_BASE = "https://data.sec.gov/submissions";
 
 const headers = () => ({
-  "User-Agent":
-    process.env.SEC_USER_AGENT ??
-    "sec-edgar-coding-assignment/1.0 contact@example.com",
+  "User-Agent": "sec-edgar-coding-assignment/1.0 contact@example.com",
   Accept: "application/json",
   "Accept-Encoding": "gzip, deflate",
 });
