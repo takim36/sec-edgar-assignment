@@ -37,8 +37,6 @@ export async function GET(request: NextRequest) {
     );
 
     return NextResponse.json({
-      period: "last-12-months",
-      generatedAt: new Date().toISOString(),
       companies: summaries,
     });
   } catch (error) {
