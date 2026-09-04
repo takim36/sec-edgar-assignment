@@ -4,7 +4,6 @@ export type FilingsResponse = {
   company: { ticker: string; name: string; cik: string };
   pagination: {
     page: number;
-    pageSize: number;
     total: number;
     totalPages: number;
   };
@@ -12,8 +11,6 @@ export type FilingsResponse = {
 };
 
 export type SummaryResponse = {
-  period: string;
-  generatedAt: string;
   companies: CompanySummary[];
 };
 
